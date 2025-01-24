@@ -9,7 +9,7 @@ from urllib.parse import urljoin
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s: %(message)s')
 BASE_URL = 'http://www.csres.com'
-# 网站设置了反爬机制，添加用户代理
+# 添加用户代理
 headers = {
     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/ 537.36'
 }

@@ -1,3 +1,4 @@
 02_test/
 00_CoreCode/test.py
 vue/node_modules/
+00_CoreCode/数据迁移/data.sqlite
